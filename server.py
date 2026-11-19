@@ -1,7 +1,7 @@
 """Serve the Watson emotion detection application with Flask."""
 from flask import Flask, render_template, request
 
-from EmotionDetection import emotion_detector
+from EmotionDetection.emotion_detection import emotion_detector
 
 app = Flask(__name__)
 
